@@ -22,3 +22,7 @@ function pro7(){
 function pro8(){
     window.alert("This project is under development. Please check back later.");
 }
+setTimeout(function() {
+  if (confirm("you have been on this page for a while. Do you want to check out my GitHub profile?")) {
+    window.location.href = "https://github.com/abhinavaby";}
+}, 30000);
